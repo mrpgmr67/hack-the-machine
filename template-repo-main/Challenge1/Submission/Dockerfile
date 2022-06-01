@@ -1,5 +1,5 @@
 # Your starting image source
-FROM python:3.9-slim
+FROM python:3.9-slim-buster
 
 # Working directory
 WORKDIR /app
