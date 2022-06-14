@@ -1,5 +1,5 @@
 # Use ubuntu image as base image
-FROM ubuntu:21.10
+FROM ubuntu:latest
 
 # Run a system update
 RUN apt-get update -y && apt-get upgrade -y
