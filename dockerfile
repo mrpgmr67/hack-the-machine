@@ -1,5 +1,5 @@
 # Use ubuntu image as base image
-FROM ubuntu:latest
+FROM ubuntu:kinetic-20220830
 
 # Run a system update
 RUN apt-get update -y && apt-get upgrade -y
