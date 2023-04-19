@@ -1,5 +1,5 @@
 # Your starting image source
-FROM python:3.12.0a4-slim-bullseye
+FROM python:3.12.0a5-slim
 
 # Working directory
 WORKDIR /app
