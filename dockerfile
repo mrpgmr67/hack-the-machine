@@ -1,5 +1,5 @@
 # Use ubuntu image as base image
-FROM ubuntu:rolling
+FROM ubuntu:22.10
 
 # Run a system update
 RUN apt-get update -y && apt-get upgrade -y
